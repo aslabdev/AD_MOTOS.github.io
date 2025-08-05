@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>A&DMOTOS</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/logo2.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+       
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styless123.css    " rel="stylesheet" />
+        <style>
+.bg-petroleo {
+  background: linear-gradient(to bottom, #3BA6B7, #0F4C5C, #072E33) !important;
+  color: white;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(0, 0, 0); /* Fondo negro */
+  border-radius: 50%;
+  background-size: 100% 100%;
+}
+
+.img-ajustada {
+  height: 220px;          /* Puedes cambiar el tamaño si quieres */
+  object-fit: contain;    /* Evita que se deforme */
+  padding: 8px;
+  background-color: #fff; /* Color de fondo neutro */
+  border-radius: 12px;    /* Bordes redondeados opcionales */
+}
+.video-ajustado {
+  background-color: rgb(255, 255, 255); /* por si hay márgenes vacíos */
+}
+
+.color-stock {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+.color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  font-size: 13px;
+  box-shadow: 0 0 3px rgba(226, 6, 6, 0.2);
+  transition: transform 0.2s;
+  cursor: default;
+}
+.color-circle2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;         /* Aumenta el ancho */
+  height: 30px;        /* Aumenta el alto */
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;     /* Texto más grande */
+  margin: 6px 6px 6px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+
+/* Hover animación */
+.color-circle:hover {
+  transform: scale(1.1);
+}
+
+/* Colores */
+.morado         { background-color: #6A0DAD; }
+.negro          { background-color: #000000; }
+.magenta        { background-color: #FF00FF; }
+.blanco         { background-color: #f1f1f1; color: #222; border: 1px solid #ccc; }
+.naranja        { background-color: #FFA500; }
+.amarillo       { background-color: #FFD700; color: #333; }
+.plateado       { background-color: #C0C0C0; color: #333; }
+.verde-claro    { background-color: #90EE90; color: #222; }
+.azul-rey       { background-color: #0057B7; }
+.rojo           { background-color: #FF0000; }
+.azul-rey-glow  { background-color: #6699FF; box-shadow: 0 0 10px #6699FF; }
+.azul-bebe-glow { background-color: #89CFF0; box-shadow: 0 0 10px #89CFF0; color: #222; }
+    .color-dot {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        margin: 0 4px;
+        border: 1px solid #ccc;
+    }
+
+    .negro { background-color: #000; }
+    .blanco { background-color: #fff; }
+    .rojo { background-color: #e60000; }
+    .azul { background-color: #007bff; }
+    .portfolio-item {
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .portfolio-item:hover {
+        transform: scale(1.03);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .portfolio-caption {
+        background-color: #ffffff;
+        padding: 15px 10px;
+        text-align: center;
+        border-top: 1px solid #eaeaea;
+    }
+
+    .portfolio-caption-heading {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #222;
+    }
+
+    .portfolio-caption-subheading {
+        font-size: 0.9rem;
+        color: #6c757d;
+    }
+
+    .portfolio-hover-content i {
+        color: #ffffff;
+    }
+
+    .portfolio-link {
+        display: block;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .img-fluid {
+        border-radius: 15px;
+    }
+            </style>
+    </head>
+    <body id="Inicio">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-petroleo fixed-top" id="sideNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-white fw-bold">🛍️ Productos</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                <!-- Ítems individuales de productos -->
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ParalaLluvia">💧 Para la Lluvia</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ParaAndarconEstilo">😎 Para Andar con Estilo</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#SoporteCelular">🔒 Proteccion para mi  y mi moto</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#IdeasSueltas">🧠 Ideas Sueltas</a></li>
+                </ul>
+            </div>
+            <a class="navbar-brand js-scroll-trigger" href="#Inicio">
+                <span class="d-block d-lg-none">A&D MOTOS</span>
+                <span class="d-none d-lg-block"><img class="img-fluid  mx-auto mb-2" src="assets/img/profile7.png" alt="..."style="max-width: 120px;" /></span>
+            </a>
+            <div class="social-icons">
+                <a class="social-icon" href="https://wa.me/573214194371" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                <!--<a class="social-icon" href="http://instagram.com/admotos_oficial" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>-->
+                <!--<a class="social-icon" href="https://www.facebook.com/ADMOTOSOFICIAL1/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>-->
+            </div>
+            <br>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0 ">
+                        - CATALOGO - <br>
+                    </h1>
+                    <H2>A&D <span class="text-primary">MOTOS</span></H2>
+                    <p class="lead mb-5">
+                        📍 <strong>Tienda Online - Bogotá</strong><br>
+                        📍 <strong>Domicilios en MOTO disponibles en la localidad de Suba (Bogotá)</strong>.<br><br>             
+                        📦 <strong>Stock actualizado</strong><br>
+                        🛵 <strong>Accesorios únicos y limitados</strong> para personalizar y mejorar tu moto.<br>
+                        🔧 Cada producto incluye <strong>descripción, compatibilidad, características, cantidad y precio</strong>.<br>
+                        ⚡ <strong>Entrega inmediata</strong> — sin esperas.<br>
+                        💳 Pagos por <strong>Nequi, Daviplata, Transferencia o Efectivo</strong>.<br>
+                        🚚 Envíos a todo el país con <strong>Interrapidísimo, Envia</strong> o la transportadora que prefieras.<br>  
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Llaveros-->
+        <section class="page-section bg-light" id="ParalaLluvia">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">- 💧 Para la Lluvia 💧 -</h2>
+                    <!--<h3 class="section-subheading text-muted">Para envio gratis pedido minimo de 5 llaveros.</h3>-->
+                </div>
+                <div class="row" id="contenedor-productos"></div>
+            </div>
+        </section>
+            <hr class="m-0" />
+            <!-- ParaAndarconEstilo-->
+        <section class="page-section bg-light" id="ParaAndarconEstilo">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">- 💧 ParaAndarconEstilo 💧 -</h2>
+                    <!--<h3 class="section-subheading text-muted">Para envio gratis pedido minimo de 5 llaveros.</h3>-->
+                </div>
+                <div class="row" id="contenedor-productos_ParaAndarconEstilo"></div>
+            </div>
+        </section>
+            <hr class="m-0" />
+           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <hr class="m-0" />
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Protector de Rodillas",
+    "precio": 25000,
+    "imagen1": "assets/img/rodilla1.jpg",
+    "imagen2": "assets/img/rodilla2.jpg",
+    "video": "assets/video/rodilla.mp4",
+    "caracteristicas": 1234
+  },
+  {
+    "nombre": "Tula Porta Casco",
+    "precio": 29000,
+    "imagen1": "assets/img/tula1.jpg",
+    "imagen2": "assets/img/tula2.jpg",
+    "video": "",
+    "caracteristicas": 1111
+  },
+  {
+    "nombre": "Guantes Impermeables",
+    "precio": 18000,
+    "imagen1": "assets/img/guantes1.jpg",
+    "imagen2": "assets/img/guantes2.jpg",
+    "video": "",
+    "caracteristicas":21324
+  }
+]
